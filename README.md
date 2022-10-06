@@ -26,5 +26,6 @@ Inspired by:
 ## Results 
 
 ## Usage
-In order to make the project more interactive, all the project is developed in a ```colab``` file. 
-You can decide which dataset and method to use.  
+In order to make the project more interactive, all the project is developed in a ```colab``` file, which is composed of different sections.
+
+You need to run all the first sections. Then, you can decide which dataset and method to use. Instead for testing the section is only one.
