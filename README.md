@@ -22,10 +22,17 @@ The aim of Principal Component Analysis(PCA) is to reduced a process in a subspa
 
 Inspired by:
 > Fiorini et al., IndRAD: A Benchmark for Anomaly Detection on Industrial Robots, ICPR workshops 2022.
+### Others
+In the last section of the code other method as Local Outlier Factor, Elliptic Envelope, Isolation Forest, OneClass SVM are proposed. The implementation is based on scikit-learn, the link to the documentation is written in the code. These are heavily used methods at the state of the art.
+
 
 ## Results 
-
+The obtained results are shown and discussed in the presentation you can find in this repo. Basically, the proposed methods are able to achieve good results in terms of accuracy. In particular, Quantile and Median methods are around 85/90% of accuracy. Instead, Gaussian is less accurate but can give a very reliable interpretability regarding the origin(in terms of  initial variable) of the anomaly.
 ## Usage
-In order to make the project more interactive, all the project is developed in a ```colab``` file, which is composed of different sections.
+In order to make the project more interactive, all the code is developed in a ```colab``` file, which is composed of different sections.
+If you would like to do some test, you have first of all to load to your google drive account the dataset folder you can find on this repo or another dataset from your own(in this case you have to change the setting for importing it or create another section).
 
-You need to run all the first sections. Then, you can decide which dataset and method to use. Instead for testing the section is only one.
+Then for using the pipeline you have to: 
+- Run all the first sections 
+- Decide which dataset and method to use (for choosing the method there is a flag)
+- Run testing section to see the results
