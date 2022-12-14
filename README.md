@@ -1,4 +1,4 @@
-# mobile-Anomaly-Detection
+# Baselines for Anomaly Detection
 Project for Mobile Robotic course at the University of Verona - A.Y. 2021/2022
 
 ## Purpose
